@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	text-align: center;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    background-color: #f9f9f9;
+    font-family:'Montserrat',sans-serif;
+     
+}
+
+a {
+    -o-transition:5s;
+    -ms-transition:5s;
+    -moz-transition:5s;
+    -webkit-transition:5s;
+    transition:5s;
+    text-decoration:none;
+}
+
+.wrapper p {
+    margin:2.4em 1em 2em 1em;
+    line-height:2em;
+}
+
+
+
+img {
+    width:50%;
+      
+}
+
+
+
+h3 {
+    text-transform:capitalize;
+    font-size: 1.875em;
+    padding: 0 0 1% 0;
+    color:#001833;
+    font-weight:800;
+}
+    
+header{
+    height:100%;
+}
+
+.intro{
+    margin:2em 0 1.8em 0 !important;
+    padding:8% 0;
+    text-align:center!important;
+}
+
+.intro h1{
+    font-size:10em;
+    text-align: center;
+    font-family: 'anton';
+    text-transform:uppercase;
+    letter-spacing:0.1em;
+    font-weight:800;
+    line-height:1.5em;
+}
+
+.intro h2{
+    font-size:2em;
+    text-align: center;
+    color:#fff;
+    font-weight:300;
+    text-transform:capitalize;
+}
+
+.wrapper {
+    margin: 2em 1.3em;
+    font-family:proxima-nova,sans-serif;
+}
+
+.about {
+    padding:4%;
+}
+
+.about p{
+    font-family: proxima-nova,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.8;
+    color:#616569;
+    letter-spacing:.03em;
+    margin:10px auto;
+    font-size:1.5em;
+    padding: 2% 0;
+}
+
+.about p a {
+    color: #e1ccc9;
+    border-bottom: 2px solid;
+}
+
+.work p {
+    margin:1em 0 1em 0;
+    line-height: 2em;
+}
+
+.text-box{
+    float:left;
+    text-align: left;
+    width: 480px;
+    background-color: #fff;
+    height:100px;
+}
+
+.text-box-content {
+    padding: 4% 8%;
+}
+
+.text-box-content p {
+    line-height: 1.8;
+    color: #616569;
+    letter-spacing:0.3em;
+    font-size: 1em
+}
+
+.button {
+    padding:5% 3%;
+    border:  3px solid #e0ccc8;
+    letter-spacing: 0.2em;
+    text-decoration: none;
+    color: #e0ccc8;
+    text-align:center;
+    display:block; 
+    font-weight:600;
+    text-transform:uppercase;
+    margin-top: 4%;
+}
+
+.button:hover{
+    color:#fff;
+    background-color: #e0ccc8;
+}
+
+.image-area{
+    width:480px;
+    height: 300px;
+    overflow: hidden;
+}
+
+
+img {
+    height:300px;
+    width:500px;
+    border-radius:10px;
+}
+
+.work-left {
+    display: flex;
+    justify-content:space-around;
+    margin: 2em auto 3em auto;
+}
+
+
+
+.work-right {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-around;
+    margin: 2em auto 3em auto;
+}
+
+
+
+
+.contact {
+    width:100%;
+    background-color:#011833;
+    padding: 5% 0;
+    margin-top:5%;
+    clear: both;
+}
+
+.contact-content {
+    max-width:960px;
+    margin:0 auto;
+    text-align:center;
+}
+
+
+.contact-content h4{
+    font-size: 1.875em;
+    padding: 1% 0;
+    color: #fff;
+    font-weight:600;
+    letter-spacing: 0.04em
+}
+
+.contact-content a{
+    color: #e0ccc8;
+    text-decoration: none;
+}
+
+.image-divider{
+    padding: 15% 0;
+    background-image: url(/nobody_cares_big.png);
+    background-size: cover;
+    background-position: center top;
+    
+}
+
+
+    
+
+
+.footer-content{
+    max-width: 960px;
+    padding:2% 0;
+    margin: 0 auto;
+    font-family: proxima-nova,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.4;
+    color:#fff;
+    letter-spacing: 0.3em;
+    font-size: 1em;
+}
+
+.credit {
+    float:left;
+}
+
+.social{
+    float:right;
+}
+
+.social li{
+    display: inline;
+}
+
+.social li a{
+    color: #fff;
+    padding:0.2em;
+    font-size: 1.8em;
+    font-weight:600;
+}
+
+.social li a:hover{
+    color:#011833;
+}
